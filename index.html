@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Каштан LIKE — Продажа лесных вещей. После покупки пишите по номеру в конце страницы</title>
+<!-- Шрифты Google -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+body {
+  margin: 0; font-family: 'Roboto', sans-serif; background: #f4f4f9; color: #333;
+}
+header {
+  background: #3df500; color: #fff; padding: 20px; display: flex; flex-direction: column; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.header-logo {
+  display: flex; align-items: center; margin-bottom: 10px;
+}
+.header-logo img {
+  height: 60px; margin-right: 15px;
+}
+header h1 {
+  margin: 0; font-size: 2rem;
+}
+nav {
+  display: flex; flex-wrap: wrap; justify-content: center;
+}
+nav a {
+  margin: 8px 15px; color: #fff; text-decoration: none; font-weight: 500; font-size: 1rem; transition: color 0.3s;
+}
+nav a:hover { color: #ffd700; }
+.container {
+  max-width: 1200px; margin: 30px auto; padding: 0 20px;
+}
+h2 {
+  font-size: 2rem; margin-bottom: 20px; position: relative; display: inline-block; padding-bottom: 8px; margin-top: 40px; color: #7b5e57;
+}
+h2::after {
+  content: ''; display: block; width: 50px; height: 3px; background: #ffd700; margin-top: 8px; border-radius: 2px;
+}
+section {
+  background: #fff; padding: 30px 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 40px; transition: all 0.2s;
+}
+section:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12); transform: translateY(-2px);
+}
+p {
+  font-size: 1.1rem; line-height: 1.6;
+}
+ul {
+  list-style: none; padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+.pay-button {
+  display: inline-block; padding: 12px 25px; margin-top: 15px; background: #ff7f50; color: #fff; border-radius: 8px; font-weight: 600; font-size: 1.1rem; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: all 0.3s;
+}
+.pay-button:hover {
+  background: #ff6347; transform: scale(1.05);
+}
+@media(max-width: 768px){
+  header { padding: 15px 20px; }
+  header h1 { font-size: 1.5rem; }
+  nav { justify-content: center; }
+  nav a { margin: 8px 12px; font-size: 0.9rem; }
+  section { padding: 20px 25px; }
+  h2 { font-size: 1.75rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-logo">
+    <img src="photo_2025-11-28_18-46-20.jpg" alt="Логотип" />
+    <h1>Каштан LIKE</h1>
+  </div>
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#goods">Товары</a>
+    <a href="#sets">Наборы</a>
+    <a href="#location">Где мы</a>
+    <a href="#contacts">Контакты</a>
+    <a href="#wish">Отзывы</a>
+  </nav>
+</header>
+
+<div class="container">
+
+<section id="about">
+<h2>О нас</h2>
+<p>Компания <strong>Каштан LIKE</strong> занимается продажей лесных вещей: каштанов, шишек, желудей и других природных сувениров. Мы предлагаем качественный ассортимент для подарков, украшений и сувениров.</p>
+</section>
+
+<section id="goods">
+<h2>Наши товары</h2>
+<p><strong>Каштаны:</strong></p>
+<ul>
+<li>1 шт. — 10 ₽ <a class="pay-button" href="https://yoomoney.ru/bill/pay/1E83B0D4SL7.251124">Купить</a></li>
+<li>5 шт. — 50 ₽ <a class="pay-button" href="https://yoomoney.ru/bill/pay/1E83BVNCFCD.251124">Купить</a></li>
+<li>10 шт. — 100 ₽ <a class="pay-button" href="https://yoomoney.ru/bill/pay/1E83CRG5CMI.251124">Купить</a></li>
+</ul>
+<p><strong>Шишки:</strong> по 5 ₽ за шт. <a class="pay-button" href="https://yoomoney.ru/bill/pay/1E83DIBPGQ5.251124">Купить</a></p>
+<p><strong>Желуди:</strong> по 5 ₽ за шт. <a class="pay-button" href="https://yoomoney.ru/bill/pay/1E83DIBPGQ5.251124">Купить</a></p>
+</section>
+
+<section id="sets">
+<h2>Наши наборы</h2>
+<h3>Стандарт — 150 ₽</h3>
+<ul>
+<li>15 каштанов</li>
+<li>5 желудей</li>
+<li>10 шишек</li>
+<li>Мини шоколадный подарок</li>
+</ul>
+<a class="pay-button" href="https://yoomoney.ru/quickpay/confirm.xml?receiver=4100119176500695&sum=150&label=наборстандарт">Купить за 150 ₽</a>
+
+<h3>Максимальный — 222 ₽</h3>
+<ul>
+<li>15 каштанов</li>
+<li>10 желудей</li>
+<li>18 шишек</li>
+<li>Мини шоколадный подарок</li>
+</ul>
+<a class="pay-button" href="https://yoomoney.ru/quickpay/confirm.xml?receiver=4100119176500695&sum=222&label=набормаксимальный">Купить за 222 ₽</a>
+
+<h3>День рождения — 333 ₽</h3>
+<ul>
+<li>25 каштанов</li>
+<li>15 желудей</li>
+<li>30 шишек</li>
+<li>Пожелания от клиента и от компании</li>
+<li>Мини шоколадный подарок</li>
+</ul>
+<a class="pay-button" href="https://yoomoney.ru/quickpay/confirm.xml?receiver=4100119176500695&sum=333&label=наборденьрождения">Купить за 333 ₽</a>
+</section>
+
+<section id="location">
+<h2>Где находится наша лавка</h2>
+<p>Москва, Новомосковский округ, район Внуково, ул. Самуила Маршака, 19, 108849, на детской площадке.</p>
+<p>Часы работы: Пн-Пт 15:00 — 16:00, Сб-Вс 16:00 — 18:00</p>
+</section>
+
+<section id="contacts">
+<h2>Контакты</h2>
+<p>Телефон: +7 (926) 070-25-11</p>
+<p>Email: jony.oficcial@mail.ru</p>
+<p>Оплата — через YooMoney одним нажатием!</p>
+</section>
+
+<section id="wish">
+<h2>Отзывы и пожелания</h2>
+<p>Оставьте свои пожелания или отзывы о нашей продукции.</p>
+<!-- В будущем можно вставить форму -->
+</section>
+
+</div>
+<footer style="background:#0037ff; color:#fff; text-align:center; padding:15px;">
+<p>&copy; 2025 Каштан LIKE. Все права защищены.</p>
+</footer>
+</body>
+</html>
+```
